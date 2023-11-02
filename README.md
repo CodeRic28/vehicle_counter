@@ -2,7 +2,8 @@
 # How to run:
 
 ## 1. Clone the repository
-```git clone git@github.com:CodeRic28/vehicle_counter.git```
+ssh: ```git clone git@github.com:CodeRic28/vehicle_counter.git```
+https: ```git clone https://github.com/CodeRic28/vehicle_counter.git```
 
 ## 2. Install requirements
 ```pip install -r requirements.txt```
