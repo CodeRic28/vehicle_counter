@@ -1,0 +1,23 @@
+path: /home/coderic/projects/vehicle_counter/data # dataset root dir
+#train:  # train images (relative to path)
+#  - images/Auto
+#  - images/Bus
+#  - images/Tempo_Traveller
+#  - images/Tractor
+#  - images/Truck
+#val:   # val images (relative to path)
+#  - images/Auto
+#  - images/Bus
+#  - images/Tempo_Traveller
+#  - images/Tractor
+#  - images/Truck
+train: images
+val: images
+
+# Classes
+names:
+  0: Auto
+  1: Bus
+  2: Tempo Traveller
+  3: Tractor
+  4: Truck

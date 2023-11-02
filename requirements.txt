@@ -1,0 +1,7 @@
+ultralytics
+cvzone
+numpy
+opencv-python
+filterpy
+scikit-image
+lap
