@@ -106,7 +106,7 @@ while success:
 
     cv2.imshow("img", img)
     # cv2.imshow("imgRegion",imgRegion)
-    cv2.waitKey(0)
+    cv2.waitKey(1)
 
 cap.release()
 
