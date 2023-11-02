@@ -24,4 +24,4 @@ Download here: https://drive.google.com/file/d/1EHtOi7_NZ7RcIeF79LSj9Q5IsM_9lt3x
 ### For better accuracy, use:
 ```yolo detect train data=config.yaml model="yolov8m.yaml" epochs=100```
 
-
+Note: `After model training, change the "model_path" variable to the new weights in main.py
