@@ -3,19 +3,7 @@ import cv2
 import cvzone
 import math
 from sort import *
-# import argparse
-#
-# # construct the argument parse and parse the arguments
-# ap = argparse.ArgumentParser()
-# ap.add_argument("-i", "--image", required=True,
-# 	help="path to input image")
-# ap.add_argument("-p", "--prototxt", required=True,
-# 	help="path to Caffe 'deploy' prototxt file")
-# ap.add_argument("-m", "--model", required=True,
-# 	help="path to Caffe pre-trained model")
-# ap.add_argument("-c", "--confidence", type=float, default=0.2,
-# 	help="minimum probability to filter weak detections")
-# args = vars(ap.parse_args())
+
 
 VIDEOS_DIR = os.path.join('.', 'videos')
 
@@ -94,7 +82,6 @@ while success:
             if id not in idTrackCount:
                 vehicleCount[classnames[cls]]+=1
                 idTrackCount.append(id)
-        print(classnames[cls], vehicleCount[classnames[cls]])
         # print(classnames[cls])
         cvzone.cornerRect(img, (x1, y1, w, h))
     cvzone.putTextRect(img, f'{classnames[cls]}', (max(0, x1), max(35, y1)), scale=3, thickness=3)
