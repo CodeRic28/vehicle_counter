@@ -12,6 +12,7 @@ https: ```git clone https://github.com/CodeRic28/vehicle_counter.git```
 Download here: https://drive.google.com/drive/folders/1q6W_ljlutuashEL5X0fhnbRPEaWa5ca9?usp=sharing
 
 ## 4. Download the video and place it in the "videos" directory
+Create the directory names "videos" if its not created already.
 Download here: https://drive.google.com/file/d/1EHtOi7_NZ7RcIeF79LSj9Q5IsM_9lt3x/view
 
 ## 5. Run the script
