@@ -5,3 +5,4 @@ opencv-python
 filterpy
 scikit-image
 lap
+math
